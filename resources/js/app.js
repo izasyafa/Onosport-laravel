@@ -1,7 +1,12 @@
-import './bootstrap';
+import "./bootstrap";
+import "flowbite";
+import Alpine from "alpinejs";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 
-import Alpine from 'alpinejs';
 
 window.Alpine = Alpine;
 
+AOS.init();
 Alpine.start();
